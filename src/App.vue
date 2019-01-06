@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SearchBox data-source-url="http://localhost:57914/contacts/all"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SearchBox from './components/SearchBox'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    SearchBox
   }
 }
 </script>
