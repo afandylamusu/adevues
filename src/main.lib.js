@@ -3,11 +3,13 @@ import Vue from "vue";
 import AdeVue from "./components/AdeVue";
 import AdeVueAutoComplete from "./components/AutoComplete";
 import AdeVueSearchBox from "./components/SearchBox";
+import AdeVueFamilyTree from "./components/FamilyTree";
 
 const Components = {
   AdeVue,
   AdeVueAutoComplete,
-  AdeVueSearchBox
+  AdeVueSearchBox,
+  AdeVueFamilyTree
 };
 
 Object.keys(Components).forEach(name => {
